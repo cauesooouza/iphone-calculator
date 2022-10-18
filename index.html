@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caluladora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="box">
+            <div class="top-bar">
+                <span class="time"></span>
+                <span>
+                    <img src="./wifi.png" alt="wifi" >
+                    <img src="./battery-status.png" alt="battery">
+                </span>
+            </div>
+            <div class="row">
+                <div class="display">0</div>
+            </div>
+            <div class="row">
+                <button class="light-gray" data-action>AC</button>
+                <button class="light-gray" data-action>+/-</button>
+                <button class="light-gray" data-action=>%</button>
+                <button class="yellow" data-action>÷</button>
+            </div>
+            <div class="row">
+                <button class="gray" data-number>7</button>
+                <button class="gray" data-number>8</button>
+                <button class="gray" data-number>9</button>
+                <button class="yellow" data-action>x</button>
+            </div>
+            <div class="row">
+                <button class="gray" data-number>4</button>
+                <button class="gray" data-number>5</button>
+                <button class="gray" data-number>6</button>
+                <button class="yellow" data-action>-</button>
+            </div>
+            <div class="row">
+                <button class="gray" data-number>1</button>
+                <button class="gray" data-number>2</button>
+                <button class="gray" data-number>3</button>
+                <button class="yellow" data-action>+</button>
+            </div>
+            <div class="row">
+                <button class="gray zero" data-number>0</button>
+                <button class="gray" data-action>.</button>
+                <button class="yellow" data-action>=</button>
+            </div>
+            <div class="bottom-bar"></div>
+        </div>
+    </main>
+</body>
+</html>
