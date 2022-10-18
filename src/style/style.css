@@ -37,6 +37,7 @@ main {
 
 .row button {
     border-radius: 50%;
+    border: none;
     cursor: pointer;
     font-size: 2rem;
     font-family: 'Roboto',sans-serif;
